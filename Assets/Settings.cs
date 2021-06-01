@@ -3,7 +3,7 @@ using UnityEngine;
 public class Settings : MonoBehaviour {
 
 	public static int NUM_SIDE_SENSORS = 12; // Number of side sensors. Total sensors = 12 + 12 + 1.
-	public static int HIDDEN_SIZE = 6; // Number of nodes in each Hidden layer.
+	public static int HIDDEN_SIZE = 13; // Number of nodes in each Hidden layer.
 	public static int NUM_HIDDENS = 2; // Number of Hidden layers.
 	public static int OUTPUT_SIZE = 2; // Number of nodes in Output layer: Acceleration & steering.
 	public static float DISTANCE_WEIGHT = 1.5f;
