@@ -13,9 +13,9 @@ public class LiDAR : MonoBehaviour
 	public void processSensors()
 	{
 
-		//Vector3 rPos = new Vector3(transform.position.x, transform.position.y - 1.8f, transform.position.z);
+	//	Vector3 rPos = new Vector3(transform.position.x, transform.position.y - 1.8f, transform.position.z);
 		Vector3 rPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-		Ray ray = new Ray(rPos, transform.forward);
+		Ray ray = new Ray(rPos, transform.forward);	
 		RaycastHit raycastHit;	
 
 		for (int i = -Settings.NUM_SIDE_SENSORS; i <= Settings.NUM_SIDE_SENSORS; i++)
